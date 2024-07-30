@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4B8ADCD-CB63-4C05-99E1-642CB4A35BD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{2F4B8C51-7761-416C-A7CA-C81AE55CDB4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accounts", "Accounts", "{CC6C23B5-B0A0-4836-9801-AAC4A7FF6A19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Login.Api", "Services\Login\EasyCashApp.Login.Api\EasyCashApp.Login.Api.csproj", "{CD65B073-3710-4613-838B-C48501E58AAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Login.Data", "Services\Login\EasyCashApp.Login.Data\EasyCashApp.Login.Data.csproj", "{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Login.Business", "Services\Login\EasyCashApp.Login.Business\EasyCashApp.Login.Business.csproj", "{80506F90-604F-4112-A1F8-A8DEC7E90E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Accounts.Api", "Services\Accounts\EasyCashApp.Accounts.Api\EasyCashApp.Accounts.Api.csproj", "{52615FDC-4348-4F9D-B5D8-8248A23E74C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Accounts.Data", "Services\Accounts\EasyCashApp.Accounts.Data\EasyCashApp.Accounts.Data.csproj", "{39661F0B-4C0D-4FB2-A168-7694947BD243}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCashApp.Accounts.Business", "Services\Accounts\EasyCashApp.Accounts.Business\EasyCashApp.Accounts.Business.csproj", "{DFE667BD-7732-43E0-BA5D-BC1893340D2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedClasses", "SharedClasses", "{69CC1C53-6C6C-4C56-833D-81BB6DB71428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashApp.SharedClasses.Database", "SharedClasses\EasyCashApp.SharedClasses.Database\EasyCashApp.SharedClasses.Database.csproj", "{6035758B-59F0-4BE4-8177-BFF2E88B4068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD65B073-3710-4613-838B-C48501E58AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD65B073-3710-4613-838B-C48501E58AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD65B073-3710-4613-838B-C48501E58AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD65B073-3710-4613-838B-C48501E58AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80506F90-604F-4112-A1F8-A8DEC7E90E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80506F90-604F-4112-A1F8-A8DEC7E90E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80506F90-604F-4112-A1F8-A8DEC7E90E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80506F90-604F-4112-A1F8-A8DEC7E90E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52615FDC-4348-4F9D-B5D8-8248A23E74C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52615FDC-4348-4F9D-B5D8-8248A23E74C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52615FDC-4348-4F9D-B5D8-8248A23E74C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52615FDC-4348-4F9D-B5D8-8248A23E74C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39661F0B-4C0D-4FB2-A168-7694947BD243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39661F0B-4C0D-4FB2-A168-7694947BD243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39661F0B-4C0D-4FB2-A168-7694947BD243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39661F0B-4C0D-4FB2-A168-7694947BD243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE667BD-7732-43E0-BA5D-BC1893340D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE667BD-7732-43E0-BA5D-BC1893340D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE667BD-7732-43E0-BA5D-BC1893340D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE667BD-7732-43E0-BA5D-BC1893340D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6035758B-59F0-4BE4-8177-BFF2E88B4068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6035758B-59F0-4BE4-8177-BFF2E88B4068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6035758B-59F0-4BE4-8177-BFF2E88B4068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6035758B-59F0-4BE4-8177-BFF2E88B4068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F4B8C51-7761-416C-A7CA-C81AE55CDB4C} = {E4B8ADCD-CB63-4C05-99E1-642CB4A35BD6}
+		{CC6C23B5-B0A0-4836-9801-AAC4A7FF6A19} = {E4B8ADCD-CB63-4C05-99E1-642CB4A35BD6}
+		{CD65B073-3710-4613-838B-C48501E58AAA} = {2F4B8C51-7761-416C-A7CA-C81AE55CDB4C}
+		{4D59EC07-6B4E-45AD-B95F-93EC2FFB8ED2} = {2F4B8C51-7761-416C-A7CA-C81AE55CDB4C}
+		{80506F90-604F-4112-A1F8-A8DEC7E90E3D} = {2F4B8C51-7761-416C-A7CA-C81AE55CDB4C}
+		{52615FDC-4348-4F9D-B5D8-8248A23E74C4} = {CC6C23B5-B0A0-4836-9801-AAC4A7FF6A19}
+		{39661F0B-4C0D-4FB2-A168-7694947BD243} = {CC6C23B5-B0A0-4836-9801-AAC4A7FF6A19}
+		{DFE667BD-7732-43E0-BA5D-BC1893340D2E} = {CC6C23B5-B0A0-4836-9801-AAC4A7FF6A19}
+		{6035758B-59F0-4BE4-8177-BFF2E88B4068} = {69CC1C53-6C6C-4C56-833D-81BB6DB71428}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AB3E80F-DD1F-4B16-91C9-7A28E1178F4E}
+	EndGlobalSection
+EndGlobal

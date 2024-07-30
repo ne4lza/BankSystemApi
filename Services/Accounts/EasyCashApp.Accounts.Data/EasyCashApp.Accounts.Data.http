@@ -1,0 +1,6 @@
+@EasyCashApp.Accounts.Data_HostAddress = http://localhost:5156
+
+GET {{EasyCashApp.Accounts.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
